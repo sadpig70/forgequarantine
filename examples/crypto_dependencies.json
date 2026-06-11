@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    {
+      "algorithm": "ECDSA",
+      "component_id": "CMP-AX9",
+      "crypto_agility": false,
+      "dependency_id": "CRY-AX9-BOOT",
+      "evidence_refs": [
+        "sbom-AX9",
+        "boot-chain-AX9"
+      ],
+      "firmware_update_path": "no_update",
+      "key_length": 256,
+      "use_case": "secure_boot_signature"
+    },
+    {
+      "algorithm": "RSA",
+      "component_id": "CMP-MR2",
+      "crypto_agility": true,
+      "dependency_id": "CRY-MR2-LINK",
+      "evidence_refs": [
+        "crypto-sbom-MR2"
+      ],
+      "firmware_update_path": "depot_update",
+      "key_length": 2048,
+      "use_case": "maintenance_channel"
+    },
+    {
+      "algorithm": "AES-256",
+      "component_id": "CMP-LAB",
+      "crypto_agility": true,
+      "dependency_id": "CRY-LAB-DATA",
+      "evidence_refs": [],
+      "firmware_update_path": "field_update",
+      "key_length": 256,
+      "use_case": "test_data_at_rest"
+    }
+  ]
+}

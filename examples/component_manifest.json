@@ -1,0 +1,43 @@
+{
+  "batch_id": "FQ-AM-2026-06",
+  "components": [
+    {
+      "component_id": "CMP-AX9",
+      "criticality": "flight_critical",
+      "deployment_environment": "radiation_vacuum",
+      "evidence_refs": [
+        "qual-report-AX9",
+        "ndt-scan-AX9"
+      ],
+      "material": "titanium-alloy",
+      "part_number": "AM-TVC-AX9",
+      "platform": "orbital transfer vehicle",
+      "print_process": "laser_powder_bed_fusion",
+      "qualification_level": "flight_qualified"
+    },
+    {
+      "component_id": "CMP-MR2",
+      "criticality": "mission_critical",
+      "deployment_environment": "salt_fog_vibration",
+      "evidence_refs": [
+        "qual-report-MR2"
+      ],
+      "material": "inconel",
+      "part_number": "AM-MOUNT-MR2",
+      "platform": "defense radar pod",
+      "print_process": "directed_energy_deposition",
+      "qualification_level": "defense_certified"
+    },
+    {
+      "component_id": "CMP-LAB",
+      "criticality": "standard",
+      "deployment_environment": "lab",
+      "evidence_refs": [],
+      "material": "steel",
+      "part_number": "AM-LAB-BRACKET",
+      "platform": "ground test rig",
+      "print_process": "binder_jet",
+      "qualification_level": "prototype"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">ForgeQuarantine additive-manufacturing PQC exposure ledger</title>
+  <desc id="desc">Printed components, crypto dependencies, and service-life profiles compiled into exposure class, quarantine priority, deadline, and evidence gaps.</desc>
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <rect x="70" y="64" width="1060" height="547" rx="18" fill="#172033" stroke="#3f4b63" stroke-width="2"/>
+  <text x="96" y="124" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">ForgeQuarantine</text>
+  <text x="96" y="162" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="19">Additive-manufacturing PQC exposure ledger for qualified components</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="106" y="232" width="238" height="248" rx="12" fill="#22304a" stroke="#38bdf8" stroke-width="2"/>
+    <text x="130" y="272" fill="#e0f2fe" font-size="22" font-weight="700">Printed Component</text>
+    <text x="130" y="318" fill="#bae6fd" font-size="17">part number</text>
+    <text x="130" y="352" fill="#bae6fd" font-size="17">qualification</text>
+    <text x="130" y="386" fill="#bae6fd" font-size="17">criticality</text>
+    <text x="130" y="420" fill="#bae6fd" font-size="17">evidence refs</text>
+    <rect x="480" y="232" width="238" height="248" rx="12" fill="#2a273f" stroke="#a78bfa" stroke-width="2"/>
+    <text x="504" y="272" fill="#ede9fe" font-size="22" font-weight="700">Crypto Dependency</text>
+    <text x="504" y="318" fill="#ddd6fe" font-size="17">ECDSA / RSA</text>
+    <text x="504" y="352" fill="#ddd6fe" font-size="17">update path</text>
+    <text x="504" y="386" fill="#ddd6fe" font-size="17">crypto agility</text>
+    <text x="504" y="420" fill="#ddd6fe" font-size="17">SBOM evidence</text>
+    <rect x="854" y="232" width="238" height="248" rx="12" fill="#2b2a24" stroke="#f59e0b" stroke-width="2"/>
+    <text x="878" y="272" fill="#ffedd5" font-size="22" font-weight="700">Service Life</text>
+    <text x="878" y="318" fill="#fed7aa" font-size="17">retirement year</text>
+    <text x="878" y="352" fill="#fed7aa" font-size="17">quantum horizon</text>
+    <text x="878" y="386" fill="#fed7aa" font-size="17">lead months</text>
+    <text x="878" y="420" fill="#fed7aa" font-size="17">inspection interval</text>
+  </g>
+  <g fill="none" stroke-width="5" stroke-linecap="round">
+    <path d="M344 340 C405 305, 430 305, 480 340" stroke="#38bdf8"/>
+    <path d="M718 340 C780 305, 805 305, 854 340" stroke="#a78bfa"/>
+    <path d="M225 480 C360 565, 792 565, 973 480" stroke="#ef4444"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="312" y="528" width="576" height="48" rx="10" fill="#0f172a" stroke="#475569"/>
+    <text x="338" y="559" fill="#f8fafc" font-size="19">exposure class -> quarantine priority -> migration deadline -> evidence gaps</text>
+  </g>
+</svg>
+

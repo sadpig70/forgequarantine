@@ -1,0 +1,15 @@
+{
+  "name": "ForgeQuarantine",
+  "version": "0.1.0",
+  "state": "implemented",
+  "summary": {
+    "done": 6,
+    "total": 6
+  },
+  "boundary": {
+    "source_round": "SA-EVX-20260611-001",
+    "source_candidate": "ForgeQuarantine",
+    "cross_model_certified": false,
+    "production_promotion_required": true
+  }
+}

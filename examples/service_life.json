@@ -1,0 +1,35 @@
+{
+  "current_year": 2026,
+  "default_lead_months": 18,
+  "quantum_horizon_year": 2032,
+  "service_profiles": [
+    {
+      "component_id": "CMP-AX9",
+      "evidence_refs": [
+        "fleet-plan-AX9"
+      ],
+      "in_service_year": 2028,
+      "inspection_interval_months": 6,
+      "planned_retirement_year": 2042,
+      "replacement_lead_months": 36
+    },
+    {
+      "component_id": "CMP-MR2",
+      "evidence_refs": [
+        "depot-plan-MR2"
+      ],
+      "in_service_year": 2027,
+      "inspection_interval_months": 12,
+      "planned_retirement_year": 2036,
+      "replacement_lead_months": 24
+    },
+    {
+      "component_id": "CMP-LAB",
+      "evidence_refs": [],
+      "in_service_year": 2026,
+      "inspection_interval_months": 18,
+      "planned_retirement_year": 2029,
+      "replacement_lead_months": 6
+    }
+  ]
+}

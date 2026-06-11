@@ -1,0 +1,149 @@
+{
+  "batch_id": "FQ-AM-2026-06",
+  "boundary": {
+    "cross_model_certified": false,
+    "production_promotion_required": true,
+    "source_artifact": ".sa-evx/rounds/SA-EVX-20260611-001/final_integrated_idea.md",
+    "source_candidate": "ForgeQuarantine",
+    "source_round": "SA-EVX-20260611-001",
+    "validation_level": "standalone_single_runtime_materialization"
+  },
+  "cross_model_certified": false,
+  "ledger_head": "adc6c85e62f710f648ec691e5ce6e8ea625fe7e00b894e342719b0d5576c5221",
+  "record_count": 3,
+  "records": [
+    {
+      "algorithm": "ECDSA",
+      "component_id": "CMP-AX9",
+      "dependency_id": "CRY-AX9-BOOT",
+      "entry_hash": "e0b2b2e57b6645cfe9a4f5352503b3dfa9346adcbd166afed25e6acd20bf3f29",
+      "evidence_gaps": [],
+      "exposure_class": "service_life_crypto_quarantine",
+      "exposure_score": 0.805,
+      "migration_deadline_year": 2028,
+      "part_number": "AM-TVC-AX9",
+      "platform": "orbital transfer vehicle",
+      "quarantine_priority": "urgent",
+      "rationale": [
+        "ECDSA is classified as quantum_broken",
+        "flight_critical component on orbital transfer vehicle",
+        "firmware update path is no_update",
+        "service life runs through 2042"
+      ],
+      "risk_label": "quantum_broken"
+    },
+    {
+      "algorithm": "RSA",
+      "component_id": "CMP-MR2",
+      "dependency_id": "CRY-MR2-LINK",
+      "entry_hash": "540ec53992ae1e6c6dbd3c9d6381c6b08fc062fb0f95e2ba474bd5c44eede22f",
+      "evidence_gaps": [],
+      "exposure_class": "service_life_crypto_quarantine",
+      "exposure_score": 0.6828,
+      "migration_deadline_year": 2030,
+      "part_number": "AM-MOUNT-MR2",
+      "platform": "defense radar pod",
+      "quarantine_priority": "high",
+      "rationale": [
+        "RSA is classified as quantum_broken",
+        "mission_critical component on defense radar pod",
+        "firmware update path is depot_update",
+        "service life runs through 2036"
+      ],
+      "risk_label": "quantum_broken"
+    },
+    {
+      "algorithm": "AES-256",
+      "component_id": "CMP-LAB",
+      "dependency_id": "CRY-LAB-DATA",
+      "entry_hash": "adc6c85e62f710f648ec691e5ce6e8ea625fe7e00b894e342719b0d5576c5221",
+      "evidence_gaps": [
+        "missing component qualification evidence",
+        "missing crypto dependency evidence",
+        "missing service-life evidence"
+      ],
+      "exposure_class": "managed_exposure",
+      "exposure_score": 0.246,
+      "migration_deadline_year": 2029,
+      "part_number": "AM-LAB-BRACKET",
+      "platform": "ground test rig",
+      "quarantine_priority": "archive",
+      "rationale": [
+        "AES-256 is classified as symmetric_resilient",
+        "standard component on ground test rig",
+        "firmware update path is field_update",
+        "service life runs through 2029",
+        "3 evidence gap(s) increase quarantine pressure"
+      ],
+      "risk_label": "symmetric_resilient"
+    }
+  ],
+  "top_records": [
+    {
+      "algorithm": "ECDSA",
+      "component_id": "CMP-AX9",
+      "dependency_id": "CRY-AX9-BOOT",
+      "entry_hash": "e0b2b2e57b6645cfe9a4f5352503b3dfa9346adcbd166afed25e6acd20bf3f29",
+      "evidence_gaps": [],
+      "exposure_class": "service_life_crypto_quarantine",
+      "exposure_score": 0.805,
+      "migration_deadline_year": 2028,
+      "part_number": "AM-TVC-AX9",
+      "platform": "orbital transfer vehicle",
+      "quarantine_priority": "urgent",
+      "rationale": [
+        "ECDSA is classified as quantum_broken",
+        "flight_critical component on orbital transfer vehicle",
+        "firmware update path is no_update",
+        "service life runs through 2042"
+      ],
+      "risk_label": "quantum_broken"
+    },
+    {
+      "algorithm": "RSA",
+      "component_id": "CMP-MR2",
+      "dependency_id": "CRY-MR2-LINK",
+      "entry_hash": "540ec53992ae1e6c6dbd3c9d6381c6b08fc062fb0f95e2ba474bd5c44eede22f",
+      "evidence_gaps": [],
+      "exposure_class": "service_life_crypto_quarantine",
+      "exposure_score": 0.6828,
+      "migration_deadline_year": 2030,
+      "part_number": "AM-MOUNT-MR2",
+      "platform": "defense radar pod",
+      "quarantine_priority": "high",
+      "rationale": [
+        "RSA is classified as quantum_broken",
+        "mission_critical component on defense radar pod",
+        "firmware update path is depot_update",
+        "service life runs through 2036"
+      ],
+      "risk_label": "quantum_broken"
+    },
+    {
+      "algorithm": "AES-256",
+      "component_id": "CMP-LAB",
+      "dependency_id": "CRY-LAB-DATA",
+      "entry_hash": "adc6c85e62f710f648ec691e5ce6e8ea625fe7e00b894e342719b0d5576c5221",
+      "evidence_gaps": [
+        "missing component qualification evidence",
+        "missing crypto dependency evidence",
+        "missing service-life evidence"
+      ],
+      "exposure_class": "managed_exposure",
+      "exposure_score": 0.246,
+      "migration_deadline_year": 2029,
+      "part_number": "AM-LAB-BRACKET",
+      "platform": "ground test rig",
+      "quarantine_priority": "archive",
+      "rationale": [
+        "AES-256 is classified as symmetric_resilient",
+        "standard component on ground test rig",
+        "firmware update path is field_update",
+        "service life runs through 2029",
+        "3 evidence gap(s) increase quarantine pressure"
+      ],
+      "risk_label": "symmetric_resilient"
+    }
+  ],
+  "urgent_count": 1
+}
